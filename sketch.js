@@ -105,7 +105,7 @@ function draw() {
       
       rectMode(CORNER);
       fill(0);
-      textSize(15);
+      textSize(18);
       textAlign(LEFT);
       text(names[i], x + 100, y - 18);
       
