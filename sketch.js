@@ -65,7 +65,7 @@ function draw() {
   
   noStroke();
   rectMode(CENTER);
-  fill(0, 240, 0);
+  fill(0, 255, 0);
   rect(300, 325, 525, 570, 75, 75, 75, 75);
   
   //Loading image page
@@ -110,15 +110,16 @@ function draw() {
       text(names[i], x + 100, y - 18);
       
       textAlign(CENTER);
+      textSize(18);
       fill(255, 0,  0);
       rect(x + 100, y - 10, w1, h - 10);
-      text(weights[i], x + 360, y - 3);
-      text('kg', x + 400, y - 3);
+      text(weights[i], x + 360, y - 6);
+      text('kg', x + 405, y - 6);
       
       fill(0, 0, 255);
-      rect(x + 100, y , w * 10, h - 10);
+      rect(x + 100, y , w * 60, h - 10);
       text(heights[i], x + 360, y + 10)
-      text('m', x + 400, y + 10);
+      text('m', x + 405, y + 10);
       
     }
   }
