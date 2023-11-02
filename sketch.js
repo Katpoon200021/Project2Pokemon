@@ -63,10 +63,13 @@ function draw() {
   stroke(2);
   text('P o k e m o n - U n o v a  R e g i o n', 300, 30);
   
-  noStroke();
-  rectMode(CENTER);
-  fill(0, 255, 0);
-  rect(300, 325, 525, 570, 75, 75, 75, 75);
+  // noStroke();
+  // rectMode(CENTER);
+  // fill(0, 255, 0);
+  // rect(300, 325, 525, 570, 75, 75, 75, 75);
+
+  //Overlay
+  blend(scenary, 250, 0, 500, 600, 80, 40, 500, 1250, SCREEN);
   
   //Loading image page
   //image(unova, 0, 65, 600, 535);
